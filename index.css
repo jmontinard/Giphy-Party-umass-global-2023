@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* background-color: red; */
+    text-align: center;
+    background-color: #333;;
+    color: seagreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    margin:50px 0;
+    letter-spacing:2px;
+}
+.form-group * {
+    display: inline-block;
+
+}
+
+.form-group {
+    border: 3px solid seagreen;
+    padding:20px;
+    margin: 25px auto;
+    background-color:rgb(0, 0, 0);
+    width: 60%;
+}
+
+input[type="text"],
+.btn{
+    border-radius: 8px;
+    border: none;
+    padding:9px;
+
+}
+
+
+input[type="text"]{
+    font-weight: bolder;
+}
+
+.btn{    text-transform: uppercase;
+    font-weight: bold;
+    background-color: seagreen;
+    color: whitesmoke;
+    cursor: pointer;
+}
+button#resetBtn{
+    background-color:rgb(156, 108, 18);
+}
+
+.giphy-img{
+    height:400px;
+    width: 400px;
+    margin:10px;
+    border-radius: 8px;
+    border: 3px solid seagreen;
+}
